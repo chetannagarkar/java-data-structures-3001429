@@ -15,7 +15,18 @@ public class QueueExamples {
     System.out.println(queue.peek());
     queue.poll();
     System.out.println(queue);
-    
+
+    // Priority Queue implementation:
+    System.out.println("Priority Queue implementation:");
+    Queue<String> queue1 = new PriorityQueue<>();
+    queue1.offer("Person One");
+    queue1.offer("Person Two");
+    queue1.offer("Person Three");
+    queue1.offer("Person Four");
+    System.out.println(queue1);
+    System.out.println(queue1.peek());
+    queue1.poll();
+    System.out.println(queue1);
   }
 
 }
